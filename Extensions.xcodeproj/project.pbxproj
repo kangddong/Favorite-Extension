@@ -18,6 +18,7 @@
 		B559742A2ACD98E200FC01FE /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55974292ACD98E200FC01FE /* UIColor+.swift */; };
 		B559742C2ACD99F200FC01FE /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559742B2ACD99F200FC01FE /* Array+.swift */; };
 		B559742E2ACD9A9F00FC01FE /* Encodable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559742D2ACD9A9F00FC01FE /* Encodable+.swift */; };
+		B55974302ACD9B1800FC01FE /* NSDictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B55974292ACD98E200FC01FE /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		B559742B2ACD99F200FC01FE /* Array+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
 		B559742D2ACD9A9F00FC01FE /* Encodable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+.swift"; sourceTree = "<group>"; };
+		B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDictionary+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				B55974292ACD98E200FC01FE /* UIColor+.swift */,
 				B559742B2ACD99F200FC01FE /* Array+.swift */,
 				B559742D2ACD9A9F00FC01FE /* Encodable+.swift */,
+				B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55974302ACD9B1800FC01FE /* NSDictionary+.swift in Sources */,
 				B55974142ACD449C00FC01FE /* ViewController.swift in Sources */,
 				B55974102ACD449C00FC01FE /* AppDelegate.swift in Sources */,
 				B55974262ACD459C00FC01FE /* String+.swift in Sources */,
