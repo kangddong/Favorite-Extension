@@ -20,7 +20,7 @@
 		B559742E2ACD9A9F00FC01FE /* Encodable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559742D2ACD9A9F00FC01FE /* Encodable+.swift */; };
 		B55974302ACD9B1800FC01FE /* NSDictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */; };
 		B55974322ACD9C8100FC01FE /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55974312ACD9C8100FC01FE /* UIImage+.swift */; };
-		B55974342ACD9E7500FC01FE /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55974332ACD9E7500FC01FE /* UIScrollView.swift */; };
+		B55974342ACD9E7500FC01FE /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55974332ACD9E7500FC01FE /* UIScrollView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		B559742D2ACD9A9F00FC01FE /* Encodable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+.swift"; sourceTree = "<group>"; };
 		B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDictionary+.swift"; sourceTree = "<group>"; };
 		B55974312ACD9C8100FC01FE /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
-		B55974332ACD9E7500FC01FE /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		B55974332ACD9E7500FC01FE /* UIScrollView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				B559742D2ACD9A9F00FC01FE /* Encodable+.swift */,
 				B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */,
 				B55974312ACD9C8100FC01FE /* UIImage+.swift */,
-				B55974332ACD9E7500FC01FE /* UIScrollView.swift */,
+				B55974332ACD9E7500FC01FE /* UIScrollView+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 				B55974282ACD94D200FC01FE /* UIButton+.swift in Sources */,
 				B55974322ACD9C8100FC01FE /* UIImage+.swift in Sources */,
 				B559742A2ACD98E200FC01FE /* UIColor+.swift in Sources */,
-				B55974342ACD9E7500FC01FE /* UIScrollView.swift in Sources */,
+				B55974342ACD9E7500FC01FE /* UIScrollView+.swift in Sources */,
 				B559742C2ACD99F200FC01FE /* Array+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
