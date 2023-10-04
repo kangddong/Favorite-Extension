@@ -19,6 +19,7 @@
 		B559742C2ACD99F200FC01FE /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559742B2ACD99F200FC01FE /* Array+.swift */; };
 		B559742E2ACD9A9F00FC01FE /* Encodable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559742D2ACD9A9F00FC01FE /* Encodable+.swift */; };
 		B55974302ACD9B1800FC01FE /* NSDictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */; };
+		B55974322ACD9C8100FC01FE /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55974312ACD9C8100FC01FE /* UIImage+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B559742B2ACD99F200FC01FE /* Array+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
 		B559742D2ACD9A9F00FC01FE /* Encodable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+.swift"; sourceTree = "<group>"; };
 		B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDictionary+.swift"; sourceTree = "<group>"; };
+		B55974312ACD9C8100FC01FE /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				B559742B2ACD99F200FC01FE /* Array+.swift */,
 				B559742D2ACD9A9F00FC01FE /* Encodable+.swift */,
 				B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */,
+				B55974312ACD9C8100FC01FE /* UIImage+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				B559742E2ACD9A9F00FC01FE /* Encodable+.swift in Sources */,
 				B55974122ACD449C00FC01FE /* SceneDelegate.swift in Sources */,
 				B55974282ACD94D200FC01FE /* UIButton+.swift in Sources */,
+				B55974322ACD9C8100FC01FE /* UIImage+.swift in Sources */,
 				B559742A2ACD98E200FC01FE /* UIColor+.swift in Sources */,
 				B559742C2ACD99F200FC01FE /* Array+.swift in Sources */,
 			);
