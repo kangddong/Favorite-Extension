@@ -7,3 +7,16 @@
 
 import Foundation
 
+extension Encodable {
+    func convertToDic() -> NSDictionary? {
+        let encoder = JSONEncoder()
+        encoder.outputFormatting = .prettyPrinted
+        do {
+            let convertedData = try encoder.encode(self)
+            let convertedDict = try JSONSerialization.jsonObject(with: convertedData, options: []) as? NSDictionary
+            return convertedDict
+        } catch {
+            return nil
+        }
+    }
+}
