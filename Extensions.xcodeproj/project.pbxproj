@@ -21,6 +21,7 @@
 		B55974302ACD9B1800FC01FE /* NSDictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */; };
 		B55974322ACD9C8100FC01FE /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55974312ACD9C8100FC01FE /* UIImage+.swift */; };
 		B55974342ACD9E7500FC01FE /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55974332ACD9E7500FC01FE /* UIScrollView+.swift */; };
+		B59FE6562ACFBEBF00D596F2 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FE6552ACFBEBF00D596F2 /* UIDevice+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDictionary+.swift"; sourceTree = "<group>"; };
 		B55974312ACD9C8100FC01FE /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		B55974332ACD9E7500FC01FE /* UIScrollView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
+		B59FE6552ACFBEBF00D596F2 /* UIDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */,
 				B55974312ACD9C8100FC01FE /* UIImage+.swift */,
 				B55974332ACD9E7500FC01FE /* UIScrollView+.swift */,
+				B59FE6552ACFBEBF00D596F2 /* UIDevice+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				B559742E2ACD9A9F00FC01FE /* Encodable+.swift in Sources */,
 				B55974122ACD449C00FC01FE /* SceneDelegate.swift in Sources */,
 				B55974282ACD94D200FC01FE /* UIButton+.swift in Sources */,
+				B59FE6562ACFBEBF00D596F2 /* UIDevice+.swift in Sources */,
 				B55974322ACD9C8100FC01FE /* UIImage+.swift in Sources */,
 				B559742A2ACD98E200FC01FE /* UIColor+.swift in Sources */,
 				B55974342ACD9E7500FC01FE /* UIScrollView+.swift in Sources */,
