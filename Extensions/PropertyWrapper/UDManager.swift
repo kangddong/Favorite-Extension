@@ -7,6 +7,11 @@
 
 import Foundation
 
+enum TypeCodeSampleEnum: String {
+    case wait = "W0001"
+    case success = "S0000"
+    case failed = "F001"
+}
 
 @propertyWrapper
 struct UDOptionalWrapper<T> {
@@ -39,12 +44,6 @@ struct UDWrapper<T> {
     }
 }
 
-enum TypeCodeEnum: String {
-    case wait = "W0001"
-    case success = "S0000"
-    case failed = "F001"
-}
-
 struct UDManager {
     @UDWrapper(key: "uuid", defaultValue: "")
     static var uuid: String
@@ -59,11 +58,11 @@ struct UDManager {
     static var tellNumber: Int
     
     // Custom Type
-    static var cateExpCode: TypeCodeEnum {
+    static var cateExpCode: TypeCodeSampleEnum {
         get {
             guard
                 let strValue = UserDefaults.standard.value(forKey: UDStringKey.typeCodeEnum.rawValue) as? String,
-                let enumValue = TypeCodeEnum(rawValue: strValue)
+                let enumValue = TypeCodeSampleEnum(rawValue: strValue)
             else { return .wait }
             
             return enumValue
