@@ -25,6 +25,7 @@
 		B58ACF9F2B02105800D53376 /* UDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ACF9C2B020C2500D53376 /* UDManager.swift */; };
 		B58ACFA72B02124300D53376 /* ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ACFA62B02124300D53376 /* ExtensionsTests.swift */; };
 		B58ACFAE2B0213CD00D53376 /* PropertyWrapperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ACFAD2B0213CD00D53376 /* PropertyWrapperTest.swift */; };
+		B58ACFB02B02145F00D53376 /* JSONDefaultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ACFAF2B02145F00D53376 /* JSONDefaultWrapper.swift */; };
 		B59FE6562ACFBEBF00D596F2 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FE6552ACFBEBF00D596F2 /* UIDevice+.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		B58ACFA42B02124300D53376 /* ExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58ACFA62B02124300D53376 /* ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsTests.swift; sourceTree = "<group>"; };
 		B58ACFAD2B0213CD00D53376 /* PropertyWrapperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperTest.swift; sourceTree = "<group>"; };
+		B58ACFAF2B02145F00D53376 /* JSONDefaultWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDefaultWrapper.swift; sourceTree = "<group>"; };
 		B59FE6552ACFBEBF00D596F2 /* UIDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 			children = (
 				B58ACF9C2B020C2500D53376 /* UDManager.swift */,
 				B58ACF9D2B020CF500D53376 /* UDStringKey.swift */,
+				B58ACFAF2B02145F00D53376 /* JSONDefaultWrapper.swift */,
 			);
 			path = PropertyWrapper;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				B55974342ACD9E7500FC01FE /* UIScrollView+.swift in Sources */,
 				B58ACF9E2B020CF500D53376 /* UDStringKey.swift in Sources */,
 				B559742C2ACD99F200FC01FE /* Array+.swift in Sources */,
+				B58ACFB02B02145F00D53376 /* JSONDefaultWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
