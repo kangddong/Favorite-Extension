@@ -26,6 +26,7 @@
 		B58ACFA72B02124300D53376 /* ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ACFA62B02124300D53376 /* ExtensionsTests.swift */; };
 		B58ACFAE2B0213CD00D53376 /* PropertyWrapperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ACFAD2B0213CD00D53376 /* PropertyWrapperTest.swift */; };
 		B58ACFB02B02145F00D53376 /* JSONDefaultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ACFAF2B02145F00D53376 /* JSONDefaultWrapper.swift */; };
+		B58ACFB22B021C2D00D53376 /* Dictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ACFB12B021C2D00D53376 /* Dictionary+.swift */; };
 		B59FE6562ACFBEBF00D596F2 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FE6552ACFBEBF00D596F2 /* UIDevice+.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		B58ACFA62B02124300D53376 /* ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsTests.swift; sourceTree = "<group>"; };
 		B58ACFAD2B0213CD00D53376 /* PropertyWrapperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperTest.swift; sourceTree = "<group>"; };
 		B58ACFAF2B02145F00D53376 /* JSONDefaultWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDefaultWrapper.swift; sourceTree = "<group>"; };
+		B58ACFB12B021C2D00D53376 /* Dictionary+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+.swift"; sourceTree = "<group>"; };
 		B59FE6552ACFBEBF00D596F2 /* UIDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 				B55974312ACD9C8100FC01FE /* UIImage+.swift */,
 				B55974332ACD9E7500FC01FE /* UIScrollView+.swift */,
 				B59FE6552ACFBEBF00D596F2 /* UIDevice+.swift */,
+				B58ACFB12B021C2D00D53376 /* Dictionary+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58ACF9F2B02105800D53376 /* UDManager.swift in Sources */,
+				B58ACFB22B021C2D00D53376 /* Dictionary+.swift in Sources */,
 				B55974302ACD9B1800FC01FE /* NSDictionary+.swift in Sources */,
 				B55974142ACD449C00FC01FE /* ViewController.swift in Sources */,
 				B55974102ACD449C00FC01FE /* AppDelegate.swift in Sources */,
