@@ -10,6 +10,20 @@ import XCTest
 
 final class PropertyWrapperTest: XCTestCase {
 
+    private struct DummyJsonDTO: Decodable {
+        let name: String
+        let weight: Double
+        let isHomeProtector: Bool
+        let height: Double?
+    }
+    
+    private struct DummyJsonWrapperDTO: Decodable {
+        let name: String
+        let weight: Double
+        let isHomeProtector: Bool
+        @JWDoubleZero var height: Double
+    }
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -41,7 +55,54 @@ final class PropertyWrapperTest: XCTestCase {
         assert(greenResult, "toggle success: \(greenResult) isFirst: \(isFirst)")
         UDManager.isFirst.toggle()
         let redResult = UDManager.isFirst != isFirst
-        assert(redResult, "toggle success: \(redResult) isFirst: \(isFirst)")
+        XCTAssert(redResult, "toggle success: \(redResult) isFirst: \(isFirst)")
+    }
+    
+    func testJSONSerialization() -> String {
+        let dict: Dictionary<String, Any> = ["name": "Arex", "weight": 86.4, "isHomeProtector": true]
+        let jsonString = dict.toJSON()
+        XCTAssert(jsonString != nil, "JSON serialization failed")
+        return jsonString!
     }
 
+    func testJSONDefaultDecodable() {
+        let jsonString = testJSONSerialization()
+        let data = jsonString.data(using: .utf8)
+        assert(data != nil, "JSON serialization failed")
+        let decoder = JSONDecoder()
+        
+        do {
+            let data = try decoder.decode(DummyJsonDTO.self, from: data!)
+            print(#function)
+            
+            XCTAssert(data.height != nil, "height is nil")
+        } catch {
+            
+        }
+    }
+    
+    func testJSONDefaultWrapper() {
+        let jsonString = testJSONSerialization()
+        let data = jsonString.data(using: .utf8)
+        assert(data != nil, "JSON serialization failed")
+        let decoder = JSONDecoder()
+        
+        do {
+            let data = try decoder.decode(DummyJsonWrapperDTO.self, from: data!)
+            print(#function)
+            
+            XCTAssert(data.height != nil, "height is nil")
+        } catch {
+            
+        }
+        
+    }
+    
+    private func getValueName(type: DummyJsonWrapperDTO) {
+        let mirror = Mirror(reflecting: type)
+        
+        mirror.children.forEach({
+            print("label: \($0.label!), value: \($0.value)")
+        })
+    }
 }
