@@ -21,6 +21,7 @@
 		B55974302ACD9B1800FC01FE /* NSDictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */; };
 		B55974322ACD9C8100FC01FE /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55974312ACD9C8100FC01FE /* UIImage+.swift */; };
 		B55974342ACD9E7500FC01FE /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55974332ACD9E7500FC01FE /* UIScrollView+.swift */; };
+		B58431B92B5A7B9000F3ECF6 /* CLLocationManager+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58431B82B5A7B9000F3ECF6 /* CLLocationManager+.swift */; };
 		B58ACF9E2B020CF500D53376 /* UDStringKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ACF9D2B020CF500D53376 /* UDStringKey.swift */; };
 		B58ACF9F2B02105800D53376 /* UDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ACF9C2B020C2500D53376 /* UDManager.swift */; };
 		B58ACFA72B02124300D53376 /* ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ACFA62B02124300D53376 /* ExtensionsTests.swift */; };
@@ -57,6 +58,7 @@
 		B559742F2ACD9B1800FC01FE /* NSDictionary+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDictionary+.swift"; sourceTree = "<group>"; };
 		B55974312ACD9C8100FC01FE /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		B55974332ACD9E7500FC01FE /* UIScrollView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
+		B58431B82B5A7B9000F3ECF6 /* CLLocationManager+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+.swift"; sourceTree = "<group>"; };
 		B58ACF9C2B020C2500D53376 /* UDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDManager.swift; sourceTree = "<group>"; };
 		B58ACF9D2B020CF500D53376 /* UDStringKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDStringKey.swift; sourceTree = "<group>"; };
 		B58ACFA42B02124300D53376 /* ExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,7 @@
 				B55974332ACD9E7500FC01FE /* UIScrollView+.swift */,
 				B59FE6552ACFBEBF00D596F2 /* UIDevice+.swift */,
 				B58ACFB12B021C2D00D53376 /* Dictionary+.swift */,
+				B58431B82B5A7B9000F3ECF6 /* CLLocationManager+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				B559742E2ACD9A9F00FC01FE /* Encodable+.swift in Sources */,
 				B55974122ACD449C00FC01FE /* SceneDelegate.swift in Sources */,
 				B55974282ACD94D200FC01FE /* UIButton+.swift in Sources */,
+				B58431B92B5A7B9000F3ECF6 /* CLLocationManager+.swift in Sources */,
 				B59FE6562ACFBEBF00D596F2 /* UIDevice+.swift in Sources */,
 				B55974322ACD9C8100FC01FE /* UIImage+.swift in Sources */,
 				B559742A2ACD98E200FC01FE /* UIColor+.swift in Sources */,
