@@ -1,11 +1,3 @@
-//
-//  JSONDecodeWrapper.swift
-//  uTicket
-//
-//  Created by 김지섭 on 2021/07/20.
-//  Copyright © 2021 김지섭. All rights reserved.
-//
-
 /*
  사용법 - 개인 블로그 참고
  https://jiseobkim.github.io/swift/2021/07/18/swift-Property-Wrapper-(feat.-Codable-코드-정리).html
